@@ -1,0 +1,1439 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+    <!--BootStrap-->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous" />
+    <title>Grow More</title>
+    <meta content="" name="description" />
+    <meta content="" name="keywords" />
+
+    <!-- Favicons -->
+    <link href="assets/img/GM icon.png" rel="icon" />
+    <link href="assets/img/GM icon.png" rel="apple-touch-icon" />
+
+    <!-- Google Fonts -->
+    <link
+      href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700"
+      rel="stylesheet" />
+
+    <!-- Vendor CSS Files -->
+    <link href="assets/vendor/animate.css/animate.min.css" rel="stylesheet" />
+    <link
+      href="assets/vendor/bootstrap/css/bootstrap.min.css"
+      rel="stylesheet" />
+    <link
+      href="assets/vendor/bootstrap-icons/bootstrap-icons.css"
+      rel="stylesheet" />
+    <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet" />
+
+    <!-- Main CSS File -->
+    <link href="assets/css/style.css" rel="stylesheet" />
+  </head>
+
+  <body>
+    <!-- ======= Property Search Section ======= -->
+    <div class="click-closed"></div>
+    <!--/ Form Search Star /-->
+    <!-- <div class="box-collapse">
+      <div class="title-box-d">
+        <h3 class="title-d">Search Property</h3>
+      </div>
+      <span class="close-box-collapse right-boxed bi bi-x"></span>
+      <div class="box-collapse-wrap form">
+        <form class="form-a">
+          <div class="row">
+            <div class="col-md-12 mb-2">
+              <div class="form-group">
+                <label class="pb-2" for="Type">Keyword</label>
+                <input
+                  type="text"
+                  class="form-control form-control-lg form-control-a"
+                  placeholder="Keyword" />
+              </div>
+            </div>
+            <div class="col-md-6 mb-2">
+              <div class="form-group mt-3">
+                <label class="pb-2" for="Type">Type</label>
+                <select
+                  class="form-control form-select form-control-a"
+                  id="Type">
+                  <option>All Type</option>
+                  <option>For Rent</option>
+                  <option>For Sale</option>
+                  <option>Open House</option>
+                </select>
+              </div>
+            </div>
+            <div class="col-md-6 mb-2">
+              <div class="form-group mt-3">
+                <label class="pb-2" for="city">City</label>
+                <select
+                  class="form-control form-select form-control-a"
+                  id="city">
+                  <option>All City</option>
+                  <option>Alabama</option>
+                  <option>Arizona</option>
+                  <option>California</option>
+                  <option>Colorado</option>
+                </select>
+              </div>
+            </div>
+            <div class="col-md-6 mb-2">
+              <div class="form-group mt-3">
+                <label class="pb-2" for="bedrooms">Bedrooms</label>
+                <select
+                  class="form-control form-select form-control-a"
+                  id="bedrooms">
+                  <option>Any</option>
+                  <option>01</option>
+                  <option>02</option>
+                  <option>03</option>
+                </select>
+              </div>
+            </div>
+            <div class="col-md-6 mb-2">
+              <div class="form-group mt-3">
+                <label class="pb-2" for="garages">Garages</label>
+                <select
+                  class="form-control form-select form-control-a"
+                  id="garages">
+                  <option>Any</option>
+                  <option>01</option>
+                  <option>02</option>
+                  <option>03</option>
+                  <option>04</option>
+                </select>
+              </div>
+            </div>
+            <div class="col-md-6 mb-2">
+              <div class="form-group mt-3">
+                <label class="pb-2" for="bathrooms">Bathrooms</label>
+                <select
+                  class="form-control form-select form-control-a"
+                  id="bathrooms">
+                  <option>Any</option>
+                  <option>01</option>
+                  <option>02</option>
+                  <option>03</option>
+                </select>
+              </div>
+            </div>
+            <div class="col-md-6 mb-2">
+              <div class="form-group mt-3">
+                <label class="pb-2" for="price">Min Price</label>
+                <select
+                  class="form-control form-select form-control-a"
+                  id="price">
+                  <option>Unlimite</option>
+                  <option>$50,000</option>
+                  <option>$100,000</option>
+                  <option>$150,000</option>
+                  <option>$200,000</option>
+                </select>
+              </div>
+            </div>
+            <div class="col-md-12">
+              <button type="submit" class="btn btn-b">Search Property</button>
+            </div>
+          </div>
+        </form>
+      </div>
+    </div> -->
+    <!-- End Property Search Section -->>
+
+    <!-- ======= Header/Navbar ======= -->
+    <nav class="navbar navbar-default navbar-trans navbar-expand-lg fixed-top">
+      <div class="container">
+        <button
+          class="navbar-toggler collapsed"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarDefault"
+          aria-controls="navbarDefault"
+          aria-expanded="false"
+          aria-label="Toggle navigation">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+        <div id="logo" class="col-2">
+          <img href="index.html" src="assets/img/growmore gc logo.png" alt="" />
+        </div>
+        <div
+          class="navbar-collapse collapse justify-content-center"
+          id="navbarDefault">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link active" href="index.html">Home</a>
+            </li>
+
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                id="navbarDropdown"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-haspopup="true"
+                aria-expanded="false"
+                >Projects</a
+              >
+              <div class="dropdown-menu">
+                <a class="dropdown-item" href="elanza-creeks.html"
+                  >Elanza Creeks</a
+                >
+              </div>
+            </li>
+
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                id="navbarDropdown"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-haspopup="true"
+                aria-expanded="false"
+                >Societies</a
+              >
+              <div class="dropdown-menu">
+                <a class="dropdown-item" href="park-view-city.html"
+                  >Park View City</a
+                >
+                <a class="dropdown-item" href="pine-city.html">Pine City</a>
+                <a class="dropdown-item" href="agochs.html"
+                  >Agochs II - Islamabad</a
+                >
+                <a class="dropdown-item" href="kingdom-valley.html"
+                  >Kingdom valley</a
+                >
+                <a class="dropdown-item" href="blue-world-city.html"
+                  >Blue World City</a
+                >
+                <a class="dropdown-item" href="arizon-city.html">Arizon City</a>
+              </div>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link" href="blog-grid.html">Blogs</a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link" href="blog-grid.html">Gallery</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="about.html">About</a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link" href="contact.html">Contact</a>
+            </li>
+          </ul>
+        </div>
+
+        <a href="tel:+923095253120">
+          <lord-icon
+            src="https://cdn.lordicon.com/ssvybplt.json"
+            trigger="hover"
+            colors="primary:#121331"
+            style="width: 32px; height: 32px">
+          </lord-icon>
+        </a>
+      </div>
+    </nav>
+    <!-- End Header/Navbar -->
+
+    <!--hero section start-->
+    <div class="hero-container">
+      <video autoplay loop muted>
+        <source src="your-video.mp4" type="video/mp4" />
+        <source src="assets/vid/demo-webm.webm" type="video/webm" />
+      </video>
+      <div class="content">
+        <!-- Your content here -->
+      </div>
+    </div>
+    <!--hero section end-->
+
+    <main id="main">
+      <!-- ======= Latest Properties Section ======= -->
+      <section class="section-property section-t8">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-12">
+              <div class="title-wrap d-flex justify-content-between">
+                <div class="title-box">
+                  <h2 class="title-a">Latest Properties</h2>
+                </div>
+                <div class="title-link">
+                  <a href="property-grid.html"
+                    >All Property
+                    <span class="bi bi-chevron-right"></span>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div id="property-carousel" class="swiper">
+            <div class="swiper-wrapper">
+              <div class="carousel-item-b swiper-slide">
+                <div class="card-box-a card-shadow">
+                  <div class="img-box-a">
+                    <img
+                      src="assets/img/property-6.jpg"
+                      alt=""
+                      class="img-a img-fluid" />
+                  </div>
+                  <div class="card-overlay">
+                    <div class="card-overlay-a-content">
+                      <div class="card-header-a">
+                        <h2 class="card-title-a">
+                          <a href="property-single.html"
+                            >206 Mount <br />
+                            Olive Road Two</a
+                          >
+                        </h2>
+                      </div>
+                      <div class="card-body-a">
+                        <div class="price-box d-flex">
+                          <span class="price-a">rent | $ 12.000</span>
+                        </div>
+                        <a href="#" class="link-a"
+                          >Click here to view
+                          <span class="bi bi-chevron-right"></span>
+                        </a>
+                      </div>
+                      <div class="card-footer-a">
+                        <ul class="card-info d-flex justify-content-around">
+                          <li>
+                            <h4 class="card-info-title">Area</h4>
+                            <span
+                              >340m
+                              <sup>2</sup>
+                            </span>
+                          </li>
+                          <li>
+                            <h4 class="card-info-title">Beds</h4>
+                            <span>2</span>
+                          </li>
+                          <li>
+                            <h4 class="card-info-title">Baths</h4>
+                            <span>4</span>
+                          </li>
+                          <li>
+                            <h4 class="card-info-title">Garages</h4>
+                            <span>1</span>
+                          </li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!-- End carousel item -->
+
+              <div class="carousel-item-b swiper-slide">
+                <div class="card-box-a card-shadow">
+                  <div class="img-box-a">
+                    <img
+                      src="assets/img/property-3.jpg"
+                      alt=""
+                      class="img-a img-fluid" />
+                  </div>
+                  <div class="card-overlay">
+                    <div class="card-overlay-a-content">
+                      <div class="card-header-a">
+                        <h2 class="card-title-a">
+                          <a href="property-single.html"
+                            >157 West <br />
+                            Central Park</a
+                          >
+                        </h2>
+                      </div>
+                      <div class="card-body-a">
+                        <div class="price-box d-flex">
+                          <span class="price-a">rent | $ 12.000</span>
+                        </div>
+                        <a href="property-single.html" class="link-a"
+                          >Click here to view
+                          <span class="bi bi-chevron-right"></span>
+                        </a>
+                      </div>
+                      <div class="card-footer-a">
+                        <ul class="card-info d-flex justify-content-around">
+                          <li>
+                            <h4 class="card-info-title">Area</h4>
+                            <span
+                              >340m
+                              <sup>2</sup>
+                            </span>
+                          </li>
+                          <li>
+                            <h4 class="card-info-title">Beds</h4>
+                            <span>2</span>
+                          </li>
+                          <li>
+                            <h4 class="card-info-title">Baths</h4>
+                            <span>4</span>
+                          </li>
+                          <li>
+                            <h4 class="card-info-title">Garages</h4>
+                            <span>1</span>
+                          </li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!-- End carousel item -->
+
+              <div class="carousel-item-b swiper-slide">
+                <div class="card-box-a card-shadow">
+                  <div class="img-box-a">
+                    <img
+                      src="assets/img/property-7.jpg"
+                      alt=""
+                      class="img-a img-fluid" />
+                  </div>
+                  <div class="card-overlay">
+                    <div class="card-overlay-a-content">
+                      <div class="card-header-a">
+                        <h2 class="card-title-a">
+                          <a href="property-single.html"
+                            >245 Azabu <br />
+                            Nishi Park let</a
+                          >
+                        </h2>
+                      </div>
+                      <div class="card-body-a">
+                        <div class="price-box d-flex">
+                          <span class="price-a">rent | $ 12.000</span>
+                        </div>
+                        <a href="property-single.html" class="link-a"
+                          >Click here to view
+                          <span class="bi bi-chevron-right"></span>
+                        </a>
+                      </div>
+                      <div class="card-footer-a">
+                        <ul class="card-info d-flex justify-content-around">
+                          <li>
+                            <h4 class="card-info-title">Area</h4>
+                            <span
+                              >340m
+                              <sup>2</sup>
+                            </span>
+                          </li>
+                          <li>
+                            <h4 class="card-info-title">Beds</h4>
+                            <span>2</span>
+                          </li>
+                          <li>
+                            <h4 class="card-info-title">Baths</h4>
+                            <span>4</span>
+                          </li>
+                          <li>
+                            <h4 class="card-info-title">Garages</h4>
+                            <span>1</span>
+                          </li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!-- End carousel item -->
+
+              <div class="carousel-item-b swiper-slide">
+                <div class="card-box-a card-shadow">
+                  <div class="img-box-a">
+                    <img
+                      src="assets/img/property-10.jpg"
+                      alt=""
+                      class="img-a img-fluid" />
+                  </div>
+                  <div class="card-overlay">
+                    <div class="card-overlay-a-content">
+                      <div class="card-header-a">
+                        <h2 class="card-title-a">
+                          <a href="property-single.html"
+                            >204 Montal <br />
+                            South Bela Two</a
+                          >
+                        </h2>
+                      </div>
+                      <div class="card-body-a">
+                        <div class="price-box d-flex">
+                          <span class="price-a">rent | $ 12.000</span>
+                        </div>
+                        <a href="property-single.html" class="link-a"
+                          >Click here to view
+                          <span class="bi bi-chevron-right"></span>
+                        </a>
+                      </div>
+                      <div class="card-footer-a">
+                        <ul class="card-info d-flex justify-content-around">
+                          <li>
+                            <h4 class="card-info-title">Area</h4>
+                            <span
+                              >340m
+                              <sup>2</sup>
+                            </span>
+                          </li>
+                          <li>
+                            <h4 class="card-info-title">Beds</h4>
+                            <span>2</span>
+                          </li>
+                          <li>
+                            <h4 class="card-info-title">Baths</h4>
+                            <span>4</span>
+                          </li>
+                          <li>
+                            <h4 class="card-info-title">Garages</h4>
+                            <span>1</span>
+                          </li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!-- End carousel item -->
+            </div>
+          </div>
+          <div class="propery-carousel-pagination carousel-pagination"></div>
+        </div>
+      </section>
+      <!-- End Latest Properties Section -->
+
+      <!--=== Start Our Projects ===-->
+      <section class="service_section" id="agenda">
+        <div class="container">
+          <!-- Start: Heading -->
+          <div class="service-heading">
+            <h3>Our Projects</h3>
+          </div>
+          <!-- End:  heading -->
+          <div class="row">
+            <div class="col-md-4">
+              <div class="service_list only-title">
+                <a href="elanza-creeks.html">
+                  <div class="service_img">
+                    <img
+                      alt="team"
+                      class="img-responsive"
+                      src="https://backend.landmarketing.com.pk/uploads/Elanza_Creek_2168766080.jpeg" />
+                  </div>
+                </a>
+                <div class="service_para text-center">
+                  <a href="elanza-creeks.html">
+                    <h5 class="ml-0">Elanza Creeks</h5>
+                  </a>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="service_list only-title">
+                <a href="#">
+                  <div class="service_img">
+                    <img
+                      alt="team"
+                      class="img-responsive"
+                      src="https://backend.landmarketing.com.pk/uploads/Elanza_Mall_147409de5d.jpeg" />
+                  </div>
+                </a>
+                <div class="service_para text-center">
+                  <a href="#">
+                    <h5 class="ml-0">Elanza Mall Islamabad</h5>
+                  </a>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="service_list only-title">
+                <a href="#">
+                  <div class="service_img">
+                    <img
+                      alt="team"
+                      class="img-responsive"
+                      src="https://backend.landmarketing.com.pk/uploads/The_Arcadia_b2cb489560.jpeg" />
+                  </div>
+                </a>
+                <div class="service_para text-center">
+                  <a href="#">
+                    <h5 class="ml-0">The Arcadia Islamabad</h5>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!---/.row -->
+        </div>
+        <!--/.container -->
+      </section>
+      <!--=== End Our Projects ===-->
+
+      <!-- Start our Societies
+    ==================================================-->
+      <section class="service_section bg-light" id="agenda">
+        <div class="container">
+          <!-- Start: Heading -->
+          <div class="service-heading">
+            <h3>Our Societies</h3>
+          </div>
+          <!-- End:  heading -->
+          <div class="row">
+            <div class="col-md-4">
+              <div class="service_list only-title">
+                <a
+                  href="https://www.landmarketing.com.pk/park-view-city-islamabad">
+                  <div class="service_img">
+                    <img
+                      alt="team"
+                      class="img-responsive"
+                      src="https://backend.landmarketing.com.pk/uploads/PARKVIW_CITY_43283f7f1d.jpg" />
+                  </div>
+                </a>
+                <div class="service_para text-center">
+                  <a
+                    href="https://www.landmarketing.com.pk/park-view-city-islamabad">
+                    <h5 class="ml-0">Park View City Islamabad</h5>
+                  </a>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="service_list only-title">
+                <a href="agochs.html">
+                  <div class="service_img">
+                    <img
+                      alt="team"
+                      class="img-responsive"
+                      src="https://backend.landmarketing.com.pk/uploads/Website_Thumnails_LM_d254b083d7.png" />
+                  </div>
+                </a>
+                <div class="service_para text-center">
+                  <a href="agochs.html">
+                    <h5 class="ml-0">Agochs-II - Islamabad</h5>
+                  </a>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="service_list only-title">
+                <a href="pine-city.html">
+                  <div class="service_img">
+                    <img
+                      alt="team"
+                      class="img-responsive"
+                      src="https://backend.landmarketing.com.pk/uploads/Website_Thumnails_LM_1_704c68f8b9.png" />
+                  </div>
+                </a>
+                <div class="service_para text-center">
+                  <a href="pine-city.html">
+                    <h5 class="ml-0">Pine City Islamabad</h5>
+                  </a>
+                </div>
+              </div>
+            </div>
+            <!-- <div class="col-md-4">
+              <div class="service_list only-title">
+                <a href="https://www.landmarketing.com.pk/faisal-town-phase-ii">
+                  <div class="service_img">
+                    <img
+                      alt="team"
+                      class="img-responsive"
+                      src="https://backend.landmarketing.com.pk/uploads/LM_Socities_Thumnail_fe0873e077.png" />
+                  </div>
+                </a>
+                <div class="service_para text-center">
+                  <a
+                    href="https://www.landmarketing.com.pk/faisal-town-phase-ii">
+                    <h5 class="ml-0">Faisal Town Phase-II</h5>
+                  </a>
+                </div>
+              </div>
+            </div> -->
+            <!-- <div class="col-md-4">
+              <div class="service_list only-title">
+                <a
+                  href="https://www.landmarketing.com.pk/new-metro-city-gujar-khan">
+                  <div class="service_img">
+                    <img
+                      alt="team"
+                      class="img-responsive"
+                      src="https://backend.landmarketing.com.pk/uploads/Whats_App_Image_2022_06_29_at_4_28_47_PM_b4e5c6c361.jpeg" />
+                  </div>
+                </a>
+                <div class="service_para text-center">
+                  <a
+                    href="https://www.landmarketing.com.pk/new-metro-city-gujar-khan">
+                    <h5 class="ml-0">New Metro City Gujar Khan</h5>
+                  </a>
+                </div>
+              </div>
+            </div> -->
+            <!-- <div class="col-md-4">
+              <div class="service_list only-title">
+                <a href="https://www.landmarketing.com.pk/gulberg-islamabad">
+                  <div class="service_img">
+                    <img
+                      alt="team"
+                      class="img-responsive"
+                      src="https://backend.landmarketing.com.pk/uploads/Gulberg_greens_5a16ee0d60.jpg" />
+                  </div>
+                </a>
+                <div class="service_para text-center">
+                  <a href="https://www.landmarketing.com.pk/gulberg-islamabad">
+                    <h5 class="ml-0">Gulberg Greens Islamabad</h5>
+                  </a>
+                </div>
+              </div>
+            </div> -->
+            <!-- <div class="col-md-4">
+              <div class="service_list only-title">
+                <a
+                  href="">
+                  <div class="service_img">
+                    <img
+                      alt="team"
+                      class="img-responsive"
+                      src="https://backend.landmarketing.com.pk/uploads/park_view_city_pic_for_web_Copy_ad2fc00e07.jpg" />
+                  </div>
+                </a>
+                <div class="service_para text-center">
+                  <a
+                    href="https://www.landmarketing.com.pk/park-view-city-lahore">
+                    <h5 class="ml-0">Park View City Lahore</h5>
+                  </a>
+                </div>
+              </div>
+            </div> -->
+            <!-- <div class="col-md-4">
+              <div class="service_list only-title">
+                <a href="https://www.landmarketing.com.pk/islamabad-golf-city">
+                  <div class="service_img">
+                    <img
+                      alt="team"
+                      class="img-responsive"
+                      src="https://backend.landmarketing.com.pk/uploads/golf_estate_gate_4016f7e99b.png" />
+                  </div>
+                </a>
+                <div class="service_para text-center">
+                  <a
+                    href="https://www.landmarketing.com.pk/islamabad-golf-city">
+                    <h5 class="ml-0">Islamabad Golf City</h5>
+                  </a>
+                </div>
+              </div>
+            </div> -->
+            <!-- <div class="col-md-4">
+              <div class="service_list only-title">
+                <a
+                  href="https://www.landmarketing.com.pk/gulberg-residencia-islamabad">
+                  <div class="service_img">
+                    <img
+                      alt="team"
+                      class="img-responsive"
+                      src="https://backend.landmarketing.com.pk/uploads/RESIDENCIA_min_5561db5839.jpg" />
+                  </div>
+                </a>
+                <div class="service_para text-center">
+                  <a
+                    href="https://www.landmarketing.com.pk/gulberg-residencia-islamabad">
+                    <h5 class="ml-0">Gulberg Residencia</h5>
+                  </a>
+                </div>
+              </div>
+            </div> -->
+            <!-- <div class="col-md-4">
+              <div class="service_list only-title">
+                <a href="https://www.landmarketing.com.pk/lahore-smart-city">
+                  <div class="service_img">
+                    <img
+                      alt="team"
+                      class="img-responsive"
+                      src="https://backend.landmarketing.com.pk/uploads/lahore_smart_city_pic_c0def264b2.jpg" />
+                  </div>
+                </a>
+                <div class="service_para text-center">
+                  <a href="https://www.landmarketing.com.pk/lahore-smart-city">
+                    <h5 class="ml-0">Lahore Smart City</h5>
+                  </a>
+                </div>
+              </div>
+            </div> -->
+            <!-- <div class="col-md-4">
+              <div class="service_list only-title">
+                <a
+                  href="https://www.landmarketing.com.pk/capital-smart-city-islamabad">
+                  <div class="service_img">
+                    <img
+                      alt="team"
+                      class="img-responsive"
+                      src="https://backend.landmarketing.com.pk/uploads/Capital_Smart_City_1_9925c8defb.jpg" />
+                  </div>
+                </a>
+                <div class="service_para text-center">
+                  <a
+                    href="https://www.landmarketing.com.pk/capital-smart-city-islamabad">
+                    <h5 class="ml-0">Capital Smart City</h5>
+                  </a>
+                </div>
+              </div>
+            </div> -->
+            <div class="col-md-4">
+              <div class="service_list only-title">
+                <a href="blue-world-city.html">
+                  <div class="service_img">
+                    <img
+                      alt="team"
+                      class="img-responsive"
+                      src="https://backend.landmarketing.com.pk/uploads/blue_world_city_land_main_slider_pic_1_a040539622.png" />
+                  </div>
+                </a>
+                <div class="service_para text-center">
+                  <a href="blue-world-city.html">
+                    <h5 class="ml-0">Blue World City</h5>
+                  </a>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="service_list only-title">
+                <a href="kingdom-valley.html">
+                  <div class="service_img">
+                    <img
+                      alt="team"
+                      class="img-responsive"
+                      src="https://backend.landmarketing.com.pk/uploads/kingvalley_gate_for_website_86ac105cfd.jpg" />
+                  </div>
+                </a>
+                <div class="service_para text-center">
+                  <a href="kingdom-valley.html">
+                    <h5 class="ml-0">Kingdom Valley</h5>
+                  </a>
+                </div>
+              </div>
+            </div>
+            <!-- <div class="col-md-4">
+              <div class="service_list only-title">
+                <a
+                  href="https://www.landmarketing.com.pk/silver-city-rawalpindi">
+                  <div class="service_img">
+                    <img
+                      alt="team"
+                      class="img-responsive"
+                      src="https://backend.landmarketing.com.pk/uploads/Silver_City_fb38d986ab.jpg" />
+                  </div>
+                </a>
+                <div class="service_para text-center">
+                  <a
+                    href="https://www.landmarketing.com.pk/silver-city-rawalpindi">
+                    <h5 class="ml-0">Silver City Housing Scheme</h5>
+                  </a>
+                </div>
+              </div>
+            </div> -->
+            <div class="col-md-4">
+              <div class="service_list only-title">
+                <a href="https://www.landmarketing.com.pk/arizon-city">
+                  <div class="service_img">
+                    <img
+                      alt="team"
+                      class="img-responsive"
+                      src="https://backend.landmarketing.com.pk/uploads/Whats_App_Image_2023_01_22_at_8_47_44_PM_6ab4facfe0.jpeg" />
+                  </div>
+                </a>
+                <div class="service_para text-center">
+                  <a href="https://www.landmarketing.com.pk/arizon-city">
+                    <h5 class="ml-0">Arizon City</h5>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!---/.row -->
+        </div>
+        <!--/.container -->
+      </section>
+      <!--=== End Our Societies ===-->
+
+      <!-- ======= Latest News Section ======= -->
+      <section class="section-news section-t8">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-12">
+              <div class="title-wrap d-flex justify-content-between">
+                <div class="title-box">
+                  <h2 class="title-a">Latest News</h2>
+                </div>
+                <div class="title-link">
+                  <a href="blog-grid.html"
+                    >All News
+                    <span class="bi bi-chevron-right"></span>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div id="news-carousel" class="swiper">
+            <div class="swiper-wrapper">
+              <div class="carousel-item-c swiper-slide">
+                <div class="card-box-b card-shadow news-box">
+                  <div class="img-box-b">
+                    <img
+                      src="assets/img/post-2.jpg"
+                      alt=""
+                      class="img-b img-fluid" />
+                  </div>
+                  <div class="card-overlay">
+                    <div class="card-header-b">
+                      <div class="card-category-b">
+                        <a href="#" class="category-b">House</a>
+                      </div>
+                      <div class="card-title-b">
+                        <h2 class="title-2">
+                          <a href="blog-single.html"
+                            >House is comming <br />
+                            new</a
+                          >
+                        </h2>
+                      </div>
+                      <div class="card-date">
+                        <span class="date-b">18 Sep. 2017</span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!-- End carousel item -->
+
+              <div class="carousel-item-c swiper-slide">
+                <div class="card-box-b card-shadow news-box">
+                  <div class="img-box-b">
+                    <img
+                      src="assets/img/post-5.jpg"
+                      alt=""
+                      class="img-b img-fluid" />
+                  </div>
+                  <div class="card-overlay">
+                    <div class="card-header-b">
+                      <div class="card-category-b">
+                        <a href="#" class="category-b">Travel</a>
+                      </div>
+                      <div class="card-title-b">
+                        <h2 class="title-2">
+                          <a href="blog-single.html"
+                            >Travel is comming <br />
+                            new</a
+                          >
+                        </h2>
+                      </div>
+                      <div class="card-date">
+                        <span class="date-b">18 Sep. 2017</span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!-- End carousel item -->
+
+              <div class="carousel-item-c swiper-slide">
+                <div class="card-box-b card-shadow news-box">
+                  <div class="img-box-b">
+                    <img
+                      src="assets/img/post-7.jpg"
+                      alt=""
+                      class="img-b img-fluid" />
+                  </div>
+                  <div class="card-overlay">
+                    <div class="card-header-b">
+                      <div class="card-category-b">
+                        <a href="#" class="category-b">Park</a>
+                      </div>
+                      <div class="card-title-b">
+                        <h2 class="title-2">
+                          <a href="blog-single.html"
+                            >Park is comming <br />
+                            new</a
+                          >
+                        </h2>
+                      </div>
+                      <div class="card-date">
+                        <span class="date-b">18 Sep. 2017</span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!-- End carousel item -->
+
+              <div class="carousel-item-c swiper-slide">
+                <div class="card-box-b card-shadow news-box">
+                  <div class="img-box-b">
+                    <img
+                      src="assets/img/post-3.jpg"
+                      alt=""
+                      class="img-b img-fluid" />
+                  </div>
+                  <div class="card-overlay">
+                    <div class="card-header-b">
+                      <div class="card-category-b">
+                        <a href="#" class="category-b">Travel</a>
+                      </div>
+                      <div class="card-title-b">
+                        <h2 class="title-2">
+                          <a href="#"
+                            >Travel is comming <br />
+                            new</a
+                          >
+                        </h2>
+                      </div>
+                      <div class="card-date">
+                        <span class="date-b">18 Sep. 2017</span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!-- End carousel item -->
+            </div>
+          </div>
+
+          <div class="news-carousel-pagination carousel-pagination"></div>
+        </div>
+      </section>
+      <!-- End Latest News Section -->
+
+      <!-- ======= Why Choose Us Section ======= -->
+      <div class="container my-5 py-5 z-depth-1">
+        <!--Section: Content-->
+        <section class="px-md-5 mx-md-5 text-center dark-grey-text">
+          <!--Grid row-->
+          <div class="row d-flex justify-content-center">
+            <!--Grid column-->
+            <div class="col-xl-6 col-md-8">
+              <h3 class="font-weight-bold">Why Choose Us ?</h3>
+
+              <p class="text-muted">
+                Choose Grow More Group of Companies for excellence in real
+                estate. Contact us to achieve your goals and realize your
+                dreams.
+              </p>
+
+              <!-- <a class="btn btn-info btn-md ml-0 mb-5" href="#" role="button"
+                >Start now<i class="fa fa-magic ml-2"></i
+              ></a> -->
+            </div>
+            <!--Grid column-->
+          </div>
+          <!--Grid row-->
+
+          <!--Grid row-->
+          <div class="row">
+            <!--First column-->
+            <div class="col-lg-3 col-md-6">
+              <i class="fas fa-gem fa-3x blue-text"></i>
+              <img class="img-fluid-icon" src="assets/img/trading.png" alt="" />
+
+              <p class="font-weight-bold my-3"><b>Trading</b></p>
+
+              <p class="text-muted">
+                Expert real estate trading services tailored to your unique
+                needs. Our skilled team guides you through the process, ensuring
+                profitable transactions and informed decisions.
+              </p>
+            </div>
+            <!--/First column-->
+
+            <!--Second column-->
+            <div class="col-lg-3 col-md-6">
+              <i class="fas fa-chart-area fa-3x teal-text"></i>
+              <img
+                class="img-fluid-icon"
+                src="assets/img/development.jpg"
+                alt="" />
+
+              <p class="font-weight-bold my-3"><b>Development</b></p>
+
+              <p class="text-muted">
+                Transforming visions into reality. We deliver high-quality
+                projects, from residential complexes to commercial spaces, with
+                attention to detail and adherence to timelines.
+              </p>
+            </div>
+            <!--/Second column-->
+
+            <!--Third column-->
+            <div class="col-lg-3 col-md-6">
+              <i class="fas fa-cogs fa-3x indigo-text"></i>
+              <img
+                class="img-fluid-icon"
+                src="assets/img/investment.png"
+                alt="" />
+
+              <p class="font-weight-bold my-3"><b>Investment</b></p>
+
+              <p class="text-muted">
+                Solid track record in managing large-scale investments for
+                profitability. Our team analyzes trends, mitigates risks, and
+                identifies lucrative opportunities.
+              </p>
+            </div>
+            <!--/Third column-->
+
+            <!--Fourth column-->
+            <div class="col-lg-3 col-md-6">
+              <i class="fas fa-cloud-upload-alt fa-3x deep-purple-text"></i>
+              <img
+                class="img-fluid-icon"
+                src="assets/img/Customer-Services.png"
+                alt="" />
+
+              <p class="font-weight-bold my-3"><b>Customer Services</b></p>
+
+              <p class="text-muted">
+                Building long-term relationships based on personalized
+                solutions. Our responsive team ensures professionalism,
+                transparency, and efficiency in every interaction.
+              </p>
+            </div>
+            <!--/Fourth column-->
+          </div>
+          <!--/Grid row-->
+        </section>
+        <!--Section: Content-->
+      </div>
+      <!-- End Why Choose Us Section -->
+
+      <!-- ======= Testimonials Section ======= -->
+      <section class="section-testimonials section-t8 nav-arrow-a">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-12">
+              <div class="title-wrap d-flex justify-content-between">
+                <div class="title-box">
+                  <h2 class="title-a">What They Are Saying</h2>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div id="testimonial-carousel" class="swiper">
+            <div class="swiper-wrapper">
+              <div class="carousel-item-a swiper-slide">
+                <div class="testimonials-box">
+                  <div class="row">
+                    <div class="col-sm-12 col-md-6">
+                      <div class="testimonial-img">
+                        <img
+                          src="assets/img/GM Status.png"
+                          alt=""
+                          class="img-fluid" />
+                      </div>
+                    </div>
+                    <div class="col-sm-12 col-md-6">
+                      <div class="testimonial-ico">
+                        <i class="bi bi-chat-quote-fill"></i>
+                      </div>
+                      <div class="testimonials-content">
+                        <p class="testimonial-text">
+                          Lorem ipsum dolor sit amet, consectetur adipisicing
+                          elit. Omnis, cupiditate ea nam praesentium debitis hic
+                          ber quibusdam voluptatibus officia expedita corpori.
+                        </p>
+                      </div>
+                      <div class="testimonial-author-box">
+                        <img
+                          src="assets/img/Logo.png"
+                          alt=""
+                          class="testimonial-avatar" />
+                        <h5 class="testimonial-author">Albert & Erika</h5>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!-- End carousel item -->
+
+              <div class="carousel-item-a swiper-slide">
+                <div class="testimonials-box">
+                  <div class="row">
+                    <div class="col-sm-12 col-md-6">
+                      <div class="testimonial-img">
+                        <img
+                          src="assets/img/GM Status.png"
+                          alt=""
+                          class="img-fluid" />
+                      </div>
+                    </div>
+                    <div class="col-sm-12 col-md-6">
+                      <div class="testimonial-ico">
+                        <i class="bi bi-chat-quote-fill"></i>
+                      </div>
+                      <div class="testimonials-content">
+                        <p class="testimonial-text">
+                          Lorem ipsum dolor sit amet, consectetur adipisicing
+                          elit. Omnis, cupiditate ea nam praesentium debitis hic
+                          ber quibusdam voluptatibus officia expedita corpori.
+                        </p>
+                      </div>
+                      <div class="testimonial-author-box">
+                        <img
+                          src="assets/img/GM icon.png"
+                          alt=""
+                          class="testimonial-avatar" />
+                        <h5 class="testimonial-author">Pablo & Emma</h5>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!-- End carousel item -->
+            </div>
+          </div>
+          <div
+            class="testimonial-carousel-pagination carousel-pagination"></div>
+        </div>
+      </section>
+      <!-- End Testimonials Section -->
+    </main>
+    <!-- End #main -->
+
+    <!-- ======= Footer ======= -->
+    <!-- <section class="section-footer">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-12 col-md-4">
+            <div class="widget-a">
+              <div class="w-header-a">
+                <h3 class="w-title-a text-brand">Grow More</h3>
+              </div>
+              <div class="w-body-a">
+                <p class="w-text-a color-text-a">
+                  Enim minim veniam quis nostrud exercitation ullamco laboris
+                  nisi ut aliquip exea commodo consequat duis sed aute irure.
+                </p>
+              </div>
+              <div class="w-footer-a">
+                <ul class="list-unstyled">
+                  <li class="color-a">
+                    <span class="color-text-a">Email .</span>
+                    contact@example.com
+                  </li>
+                  <li class="color-a">
+                    <span class="color-text-a">Phone .</span> +92 331 6363123
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-12 col-md-4 section-md-t3">
+            <div class="widget-a">
+              <div class="w-header-a">
+                <h3 class="w-title-a text-brand">The Company</h3>
+              </div>
+              <div class="w-body-a">
+                <div class="w-body-a">
+                  <ul class="list-unstyled">
+                    <li class="item-list-a">
+                      <i class="bi bi-chevron-right"></i>
+                      <a href="#">Site Map</a>
+                    </li>
+                    <li class="item-list-a">
+                      <i class="bi bi-chevron-right"></i> <a href="#">Legal</a>
+                    </li>
+                    <li class="item-list-a">
+                      <i class="bi bi-chevron-right"></i>
+                      <a href="#">Agent Admin</a>
+                    </li>
+                    <li class="item-list-a">
+                      <i class="bi bi-chevron-right"></i>
+                      <a href="#">Careers</a>
+                    </li>
+                    <li class="item-list-a">
+                      <i class="bi bi-chevron-right"></i>
+                      <a href="#">Affiliate</a>
+                    </li>
+                    <li class="item-list-a">
+                      <i class="bi bi-chevron-right"></i>
+                      <a href="#">Privacy Policy</a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-12 col-md-4 section-md-t3">
+            <div class="widget-a">
+              <div class="w-header-a">
+                <h3 class="w-title-a text-brand">International sites</h3>
+              </div>
+              <div class="w-body-a">
+                <ul class="list-unstyled">
+                  <li class="item-list-a">
+                    <i class="bi bi-chevron-right"></i>
+                    <a href="#">Venezuela</a>
+                  </li>
+                  <li class="item-list-a">
+                    <i class="bi bi-chevron-right"></i> <a href="#">China</a>
+                  </li>
+                  <li class="item-list-a">
+                    <i class="bi bi-chevron-right"></i>
+                    <a href="#">Hong Kong</a>
+                  </li>
+                  <li class="item-list-a">
+                    <i class="bi bi-chevron-right"></i>
+                    <a href="#">Argentina</a>
+                  </li>
+                  <li class="item-list-a">
+                    <i class="bi bi-chevron-right"></i>
+                    <a href="#">Singapore</a>
+                  </li>
+                  <li class="item-list-a">
+                    <i class="bi bi-chevron-right"></i>
+                    <a href="#">Philippines</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section> -->
+    <footer>
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12">
+            <nav class="nav-footer">
+              <ul class="list-inline">
+                <li class="list-inline-item">
+                  <a href="index.html">Home</a>
+                </li>
+                <li class="list-inline-item">
+                  <a href="about.html">About</a>
+                </li>
+                <li class="list-inline-item">
+                  <a href="blog-grid.html">Blog</a>
+                </li>
+                <li class="list-inline-item">
+                  <a href="contact.html">Contact</a>
+                </li>
+              </ul>
+            </nav>
+            <div class="socials-a">
+              <ul class="list-inline">
+                <li class="list-inline-item">
+                  <a href="https://www.facebook.com/GrowMore.com.pk/">
+                    <i class="bi bi-facebook" aria-hidden="true"></i>
+                  </a>
+                </li>
+                <li class="list-inline-item">
+                  <a href="#">
+                    <i class="bi bi-twitter" aria-hidden="true"></i>
+                  </a>
+                </li>
+                <li class="list-inline-item">
+                  <a href="https://www.instagram.com/GrowMore.com.pk/">
+                    <i class="bi bi-instagram" aria-hidden="true"></i>
+                  </a>
+                </li>
+                <li class="list-inline-item">
+                  <a href="#">
+                    <i class="bi bi-linkedin" aria-hidden="true"></i>
+                  </a>
+                </li>
+                <li class="list-inline-item">
+                  <a href="#">
+                    <i class="bi bi-youtube" aria-hidden="true"></i>
+                  </a>
+                </li>
+                <li class="list-inline-item">
+                  <a href="#">
+                    <i class="bi bi-tiktok" aria-hidden="true"></i>
+                  </a>
+                </li>
+              </ul>
+            </div>
+            <div class="copyright-footer">
+              <p class="copyright color-text-a">
+                &copy; Copyright
+                <span class="color-a">Grow More</span> All Rights Reserved.
+              </p>
+            </div>
+            <div class="credits">
+              Designed & Developed by
+              <a href="https://beacontechh.com/">Beacontechh</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!-- End  Footer -->
+
+    <div id="preloader"></div>
+    <a
+      href="#"
+      class="back-to-top d-flex align-items-center justify-content-center"
+      ><i class="bi bi-arrow-up-short"></i
+    ></a>
+
+    <div class="whatsapp-button">
+      <a href="https://wa.me/+923316363123" target="_blank">
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          width="45"
+          height="45"
+          viewBox="0 0 256 258">
+          <defs>
+            <linearGradient
+              id="logosWhatsappIcon0"
+              x1="50%"
+              x2="50%"
+              y1="100%"
+              y2="0%">
+              <stop offset="0%" stop-color="#1FAF38" />
+              <stop offset="100%" stop-color="#60D669" />
+            </linearGradient>
+            <linearGradient
+              id="logosWhatsappIcon1"
+              x1="50%"
+              x2="50%"
+              y1="100%"
+              y2="0%">
+              <stop offset="0%" stop-color="#F9F9F9" />
+              <stop offset="100%" stop-color="#FFF" />
+            </linearGradient>
+          </defs>
+          <path
+            fill="url(#logosWhatsappIcon0)"
+            d="M5.463 127.456c-.006 21.677 5.658 42.843 16.428 61.499L4.433 252.697l65.232-17.104a122.994 122.994 0 0 0 58.8 14.97h.054c67.815 0 123.018-55.183 123.047-123.01c.013-32.867-12.775-63.773-36.009-87.025c-23.23-23.25-54.125-36.061-87.043-36.076c-67.823 0-123.022 55.18-123.05 123.004" />
+          <path
+            fill="url(#logosWhatsappIcon1)"
+            d="M1.07 127.416c-.007 22.457 5.86 44.38 17.014 63.704L0 257.147l67.571-17.717c18.618 10.151 39.58 15.503 60.91 15.511h.055c70.248 0 127.434-57.168 127.464-127.423c.012-34.048-13.236-66.065-37.3-90.15C194.633 13.286 162.633.014 128.536 0C58.276 0 1.099 57.16 1.071 127.416Zm40.24 60.376l-2.523-4.005c-10.606-16.864-16.204-36.352-16.196-56.363C22.614 69.029 70.138 21.52 128.576 21.52c28.3.012 54.896 11.044 74.9 31.06c20.003 20.018 31.01 46.628 31.003 74.93c-.026 58.395-47.551 105.91-105.943 105.91h-.042c-19.013-.01-37.66-5.116-53.922-14.765l-3.87-2.295l-40.098 10.513l10.706-39.082Z" />
+          <path
+            fill="#FFF"
+            d="M96.678 74.148c-2.386-5.303-4.897-5.41-7.166-5.503c-1.858-.08-3.982-.074-6.104-.074c-2.124 0-5.575.799-8.492 3.984c-2.92 3.188-11.148 10.892-11.148 26.561c0 15.67 11.413 30.813 13.004 32.94c1.593 2.123 22.033 35.307 54.405 48.073c26.904 10.609 32.379 8.499 38.218 7.967c5.84-.53 18.844-7.702 21.497-15.139c2.655-7.436 2.655-13.81 1.859-15.142c-.796-1.327-2.92-2.124-6.105-3.716c-3.186-1.593-18.844-9.298-21.763-10.361c-2.92-1.062-5.043-1.592-7.167 1.597c-2.124 3.184-8.223 10.356-10.082 12.48c-1.857 2.129-3.716 2.394-6.9.801c-3.187-1.598-13.444-4.957-25.613-15.806c-9.468-8.442-15.86-18.867-17.718-22.056c-1.858-3.184-.199-4.91 1.398-6.497c1.431-1.427 3.186-3.719 4.78-5.578c1.588-1.86 2.118-3.187 3.18-5.311c1.063-2.126.531-3.986-.264-5.579c-.798-1.593-6.987-17.343-9.819-23.64" />
+        </svg>
+      </a>
+    </div>
+
+    <!-- Vendor JS Files -->
+    <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+    <script src="assets/vendor/php-email-form/validate.js"></script>
+
+    <!-- Template Main JS File -->
+    <script src="assets/js/main.js"></script>
+    <script src="https://cdn.lordicon.com/bhenfmcm.js"></script>
+  </body>
+</html>

@@ -1,0 +1,936 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+    <!--BootStrap-->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous" />
+    <title>Grow More - Pine City</title>
+    <meta content="" name="description" />
+    <meta content="" name="keywords" />
+
+    <!-- Favicons -->
+    <link href="assets/img/GM icon.png" rel="icon" />
+    <link href="assets/img/GM icon.png" rel="apple-touch-icon" />
+
+    <!-- Google Fonts -->
+    <link
+      href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700"
+      rel="stylesheet" />
+
+    <!-- Vendor CSS Files -->
+    <link href="assets/vendor/animate.css/animate.min.css" rel="stylesheet" />
+    <link
+      href="assets/vendor/bootstrap/css/bootstrap.min.css"
+      rel="stylesheet" />
+    <link
+      href="assets/vendor/bootstrap-icons/bootstrap-icons.css"
+      rel="stylesheet" />
+    <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet" />
+
+    <!-- Main CSS File -->
+    <link href="assets/css/style.css" rel="stylesheet" />
+  </head>
+
+  <body>
+    <!-- ======= Property Search Section ======= -->
+    <div class="click-closed"></div>
+    <!--/ Form Search Star /-->
+    <div class="box-collapse">
+      <div class="title-box-d">
+        <h3 class="title-d">Search Property</h3>
+      </div>
+      <span class="close-box-collapse right-boxed bi bi-x"></span>
+      <div class="box-collapse-wrap form">
+        <form class="form-a">
+          <div class="row">
+            <div class="col-md-12 mb-2">
+              <div class="form-group">
+                <label class="pb-2" for="Type">Keyword</label>
+                <input
+                  type="text"
+                  class="form-control form-control-lg form-control-a"
+                  placeholder="Keyword" />
+              </div>
+            </div>
+            <div class="col-md-6 mb-2">
+              <div class="form-group mt-3">
+                <label class="pb-2" for="Type">Type</label>
+                <select
+                  class="form-control form-select form-control-a"
+                  id="Type">
+                  <option>All Type</option>
+                  <option>For Rent</option>
+                  <option>For Sale</option>
+                  <option>Open House</option>
+                </select>
+              </div>
+            </div>
+            <div class="col-md-6 mb-2">
+              <div class="form-group mt-3">
+                <label class="pb-2" for="city">City</label>
+                <select
+                  class="form-control form-select form-control-a"
+                  id="city">
+                  <option>All City</option>
+                  <option>Alabama</option>
+                  <option>Arizona</option>
+                  <option>California</option>
+                  <option>Colorado</option>
+                </select>
+              </div>
+            </div>
+            <div class="col-md-6 mb-2">
+              <div class="form-group mt-3">
+                <label class="pb-2" for="bedrooms">Bedrooms</label>
+                <select
+                  class="form-control form-select form-control-a"
+                  id="bedrooms">
+                  <option>Any</option>
+                  <option>01</option>
+                  <option>02</option>
+                  <option>03</option>
+                </select>
+              </div>
+            </div>
+            <div class="col-md-6 mb-2">
+              <div class="form-group mt-3">
+                <label class="pb-2" for="garages">Garages</label>
+                <select
+                  class="form-control form-select form-control-a"
+                  id="garages">
+                  <option>Any</option>
+                  <option>01</option>
+                  <option>02</option>
+                  <option>03</option>
+                  <option>04</option>
+                </select>
+              </div>
+            </div>
+            <div class="col-md-6 mb-2">
+              <div class="form-group mt-3">
+                <label class="pb-2" for="bathrooms">Bathrooms</label>
+                <select
+                  class="form-control form-select form-control-a"
+                  id="bathrooms">
+                  <option>Any</option>
+                  <option>01</option>
+                  <option>02</option>
+                  <option>03</option>
+                </select>
+              </div>
+            </div>
+            <div class="col-md-6 mb-2">
+              <div class="form-group mt-3">
+                <label class="pb-2" for="price">Min Price</label>
+                <select
+                  class="form-control form-select form-control-a"
+                  id="price">
+                  <option>Unlimite</option>
+                  <option>$50,000</option>
+                  <option>$100,000</option>
+                  <option>$150,000</option>
+                  <option>$200,000</option>
+                </select>
+              </div>
+            </div>
+            <div class="col-md-12">
+              <button type="submit" class="btn btn-b">Search Property</button>
+            </div>
+          </div>
+        </form>
+      </div>
+    </div>
+    <!-- End Property Search Section -->>
+
+    <!-- ======= Header/Navbar ======= -->
+    <nav class="navbar navbar-default navbar-trans navbar-expand-lg fixed-top">
+      <div class="container">
+        <button
+          class="navbar-toggler collapsed"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarDefault"
+          aria-controls="navbarDefault"
+          aria-expanded="false"
+          aria-label="Toggle navigation">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+        <div id="logo" class="col-2">
+          <img href="index.html" src="assets/img/growmore gc logo.png" alt="" />
+        </div>
+        <div
+          class="navbar-collapse collapse justify-content-center"
+          id="navbarDefault">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link active" href="index.html">Home</a>
+            </li>
+
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                id="navbarDropdown"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-haspopup="true"
+                aria-expanded="false"
+                >Projects</a
+              >
+              <div class="dropdown-menu">
+                <a class="dropdown-item" href="elanza-creeks.html"
+                  >Elanza Creeks</a
+                >
+              </div>
+            </li>
+
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                id="navbarDropdown"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-haspopup="true"
+                aria-expanded="false"
+                >Societies</a
+              >
+              <div class="dropdown-menu">
+                <a class="dropdown-item" href="pine-city.html">Pine City</a>
+                <a class="dropdown-item" href="agochs.html">Agochs II</a>
+                <a class="dropdown-item" href="kingdom-valley.html"
+                  >Kingdom valley</a
+                >
+                <a class="dropdown-item" href="blue-world-city.html"
+                  >Blue World City</a
+                >
+              </div>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link" href="blog-grid.html">Blogs</a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link" href="blog-grid.html">Gallery</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="about.html">About</a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link" href="contact.html">Contact</a>
+            </li>
+          </ul>
+        </div>
+
+        <button
+          type="button"
+          class="btn btn-b-n navbar-toggle-box navbar-toggle-box-collapse"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarTogglerDemo01">
+          <i class="bi bi-search"></i>
+        </button>
+      </div>
+    </nav>
+    <!-- End Header/Navbar -->
+
+    <!-- ======= Intro Section ======= -->
+    <div class="intro intro-carousel swiper position-relative">
+      <div class="swiper-wrapper">
+        <div
+          class="swiper-slide carousel-item-a intro-item bg-image"
+          style="background-image: url(assets/img/pine-city.png)">
+          <div class="overlay overlay-a"></div>
+          <!-- <div class="intro-content display-table">
+            <div class="table-cell">
+              <div class="container">
+                <div class="row">
+                  <div class="col-lg-8">
+                    <div class="intro-body">
+                      <h1 class="intro-title mb-4">
+                        <span class="color-b">204 </span> Mount <br />
+                        Olive Road Two
+                      </h1>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div> -->
+        </div>
+        <div
+          class="swiper-slide carousel-item-a intro-item bg-image"
+          style="background-image: url(assets/img/ec\ 2.png)">
+          <div class="overlay overlay-a"></div>
+          <!-- <div class="intro-content display-table">
+            <div class="table-cell">
+              <div class="container">
+                <div class="row">
+                  <div class="col-lg-8">
+                    <div class="intro-body">
+                      <h1 class="intro-title mb-4">
+                        <span class="color-b">204 </span> Rino <br />
+                        Venda Road Five
+                      </h1>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div> -->
+        </div>
+        <div
+          class="swiper-slide carousel-item-a intro-item bg-image"
+          style="background-image: url(assets/img/ec\ 3.png)">
+          <div class="overlay overlay-a"></div>
+          <!-- <div class="intro-content display-table">
+            <div class="table-cell">
+              <div class="container">
+                <div class="row">
+                  <div class="col-lg-8">
+                    <div class="intro-body">
+                      <h1 class="intro-title mb-4">
+                        <span class="color-b">204 </span> Alira <br />
+                        Roan Road One
+                      </h1>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div> -->
+        </div>
+      </div>
+      <div class="swiper-pagination"></div>
+    </div>
+    <!-- End Intro Section -->
+
+    <main id="main">
+      <!-- ======= About Section ======= -->
+      <div>
+        <div class="container">
+          <div class="row">
+            <p>
+              Nestled amidst the serene pine forests and captivating landscapes
+              of the Margalla Hills, Golf View is a remarkable residential and
+              resort community brought to you by Pine City. Spanning over 8,000
+              Kanal, this private golf and lifestyle destination is located in
+              the picturesque Makhniyal area, just off Margalla Hills, Pir
+              Sohawa in Islamabad.
+              <br />
+              View offers an idyllic haven, serving as both your permanent
+              residence and a getaway retreat. With a limited number of
+              homesites planned, residents can relish virtually uninterrupted
+              panoramic views of the region's breathtaking features. From the
+              lush forests and pristine golf course to the enchanting
+              waterfalls, abundant wildlife, and the mesmerizing blue skyline,
+              every aspect of Golf View immerses you in the wonders of nature.
+              <br />One of the distinct advantages of Golf View is its
+              pollution-free environment, boasting temperatures consistently
+              7-10°C cooler than Islamabad. It provides a refreshing and
+              rejuvenating atmosphere, allowing esteemed members to bask in the
+              choicest blessings of the Margalla Hills, enveloped by the
+              tranquility of lush greenery and the delightful melodies of
+              chirping birds. <br />Escape the hustle and bustle of city life
+              and embark on a remarkable adventure in nature's embrace at Golf
+              View. Discover the perfect blend of luxury living and natural
+              beauty, creating an unrivaled living experience for those who
+              appreciate the finer things in life.
+            </p>
+          </div>
+        </div>
+      </div>
+      <!-- End About Section -->
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12">
+            <div class="section-title">
+              <h2>Everything You Need Is Right Here!</h2>
+              <p>
+                Experience the vibrant and dynamic community that welcomes you
+                with open arms, where endless opportunities for excitement and
+                entertainment await. We extend a heartfelt invitation to join us
+                on this remarkable journey! Prepare yourself to forge a deep
+                connection with nature, indulge in exquisite amenities, and be
+                captivated by a range of recreational facilities. Look no
+                further than the enchanting Pine Hills enclave to find solace,
+                unwind, and maintain your well-being.
+              </p>
+              <h6>Pir Sohawa Mountains:</h6>
+              <p>
+                Pine City Islamabad is a charismatic new take on the classic Pir
+                Sohawa Mountains near Islamabad, Pakistan.
+              </p>
+
+              <h6>Heart of Nature:</h6>
+              <p>
+                An extremely preferred occasion of living in the heart of nature
+                with lush green pines environment.
+              </p>
+              <h6>Ultr Lavish Home:</h6>
+              <p>
+                Offering brilliant new ultra-lavish homes, daily adventure, and
+                breath-taking aerial views of charming Makhnial Forest and
+                breathtaking valleys, waterfalls, hiking, camping, and b areas.
+              </p>
+              <h6>Farm House:</h6>
+              <p>
+                An elite 1600 Kanal plan with 1, 2, and 4 Kanal Farm Houses.
+                Holiday Memories: A perfect trip destination where memories can
+                be made with friends and family.
+              </p>
+              <h6>A Magic World:</h6>
+              <p>
+                It is truly a magic world, a magical circle that ambiance
+                comforts and virtues, never ever identified beyond its hallowed
+                borders.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!--== Features Section ==-->
+      <section class="service_section">
+        <div class="container">
+          <!-- Start: Heading -->
+          <div class="text-center">
+            <h3>Features</h3>
+          </div>
+          <!-- End:  heading -->
+          <div class="row">
+            <div class="col-md-4 col-xs-6 text-center">
+              <img
+                src="https://backend.landmarketing.com.pk/uploads/health_care_005f9ecc05.png"
+                style="width: auto; height: 45px"
+                alt="Healthcare" />
+              <h5 class="mt-3 mb-3" style="min-height: 55px; font-size: 14px">
+                Healthcare
+              </h5>
+            </div>
+            <div class="col-md-4 col-xs-6 text-center">
+              <img
+                src="https://backend.landmarketing.com.pk/uploads/restaurants_bb5fe04c52.png"
+                style="width: auto; height: 45px"
+                alt="Restaurants" />
+              <h5 class="mt-3 mb-3" style="min-height: 55px; font-size: 14px">
+                Restaurants
+              </h5>
+            </div>
+            <div class="col-md-4 col-xs-6 text-center">
+              <img
+                src="https://backend.landmarketing.com.pk/uploads/hispeed_elevator_88ce647a74.png"
+                style="width: auto; height: 45px"
+                alt="High speed Elevator" />
+              <h5 class="mt-3 mb-3" style="min-height: 55px; font-size: 14px">
+                High speed Elevator
+              </h5>
+            </div>
+            <div class="col-md-4 col-xs-6 text-center">
+              <img
+                src="https://backend.landmarketing.com.pk/uploads/family_arena_702f960672.png"
+                style="width: auto; height: 45px"
+                alt="Family Arena" />
+              <h5 class="mt-3 mb-3" style="min-height: 55px; font-size: 14px">
+                Family Arena
+              </h5>
+            </div>
+            <div class="col-md-4 col-xs-6 text-center">
+              <img
+                src="https://backend.landmarketing.com.pk/uploads/cctv_surveillance_1274452983.png"
+                style="width: auto; height: 45px"
+                alt="CCTV Surveillance" />
+              <h5 class="mt-3 mb-3" style="min-height: 55px; font-size: 14px">
+                CCTV Surveillance
+              </h5>
+            </div>
+            <div class="col-md-4 col-xs-6 text-center">
+              <img
+                src="https://backend.landmarketing.com.pk/uploads/daycare_50a14cbe33.jpg"
+                style="width: auto; height: 45px"
+                alt="Daycare" />
+              <h5 class="mt-3 mb-3" style="min-height: 55px; font-size: 14px">
+                Daycare
+              </h5>
+            </div>
+            <div class="col-md-4 col-xs-6 text-center">
+              <img
+                src="https://backend.landmarketing.com.pk/uploads/earthquake_resistant_105ebc1db3.png"
+                style="width: auto; height: 45px"
+                alt="Earthquake Resistance" />
+              <h5 class="mt-3 mb-3" style="min-height: 55px; font-size: 14px">
+                Earthquake Resistance
+              </h5>
+            </div>
+            <div class="col-md-4 col-xs-6 text-center">
+              <img
+                src="https://backend.landmarketing.com.pk/uploads/separate_entrance_for_apartments_c2112546dc.png"
+                style="width: auto; height: 45px"
+                alt="Separate Entrance" />
+              <h5 class="mt-3 mb-3" style="min-height: 55px; font-size: 14px">
+                Separate Entrance
+              </h5>
+            </div>
+            <div class="col-md-4 col-xs-6 text-center">
+              <img
+                src="https://backend.landmarketing.com.pk/uploads/branded_shops_8f72734ad3.png"
+                style="width: auto; height: 45px"
+                alt="Branded Shops" />
+              <h5 class="mt-3 mb-3" style="min-height: 55px; font-size: 14px">
+                Branded Shops
+              </h5>
+            </div>
+            <div class="col-md-4 col-xs-6 text-center">
+              <img
+                src="https://backend.landmarketing.com.pk/uploads/output_onlinepngtools_dc3eebc129.png"
+                style="width: auto; height: 45px"
+                alt="Electricity Backup" />
+              <h5 class="mt-3 mb-3" style="min-height: 55px; font-size: 14px">
+                Electricity Backup
+              </h5>
+            </div>
+          </div>
+        </div>
+        <!--/.container -->
+      </section>
+      <!-- End Features Section -->
+
+      <!-- =======Team Section =======
+      <section class="section-agents section-t8">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-12">
+              <div class="title-wrap d-flex justify-content-between">
+                <div class="title-box">
+                  <h2 class="title-a">Meet Our Team</h2>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-4">
+              <div class="card-box-d">
+                <div class="card-img-d">
+                  <img
+                    src="assets/img/agent-7.jpg"
+                    alt=""
+                    class="img-d img-fluid" />
+                </div>
+                <div class="card-overlay card-overlay-hover">
+                  <div class="card-header-d">
+                    <div class="card-title-d align-self-center">
+                      <h3 class="title-d">
+                        <a href="agent-single.html" class="link-two"
+                          >Margaret Sotillo <br />
+                          Escala</a
+                        >
+                      </h3>
+                    </div>
+                  </div>
+                  <div class="card-body-d">
+                    <p class="content-d color-text-a">
+                      Sed porttitor lectus nibh, Cras ultricies ligula sed magna
+                      dictum porta two.
+                    </p>
+                    <div class="info-agents color-a">
+                      <p><strong>Phone: </strong> +54 356 945234</p>
+                      <p><strong>Email: </strong> agents@example.com</p>
+                    </div>
+                  </div>
+                  <div class="card-footer-d">
+                    <div class="socials-footer d-flex justify-content-center">
+                      <ul class="list-inline">
+                        <li class="list-inline-item">
+                          <a href="#" class="link-one">
+                            <i class="bi bi-facebook" aria-hidden="true"></i>
+                          </a>
+                        </li>
+                        <li class="list-inline-item">
+                          <a href="#" class="link-one">
+                            <i class="bi bi-twitter" aria-hidden="true"></i>
+                          </a>
+                        </li>
+                        <li class="list-inline-item">
+                          <a href="#" class="link-one">
+                            <i class="bi bi-instagram" aria-hidden="true"></i>
+                          </a>
+                        </li>
+                        <li class="list-inline-item">
+                          <a href="#" class="link-one">
+                            <i class="bi bi-linkedin" aria-hidden="true"></i>
+                          </a>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="card-box-d">
+                <div class="card-img-d">
+                  <img
+                    src="assets/img/agent-6.jpg"
+                    alt=""
+                    class="img-d img-fluid" />
+                </div>
+                <div class="card-overlay card-overlay-hover">
+                  <div class="card-header-d">
+                    <div class="card-title-d align-self-center">
+                      <h3 class="title-d">
+                        <a href="agent-single.html" class="link-two"
+                          >Stiven Spilver <br />
+                          Darw</a
+                        >
+                      </h3>
+                    </div>
+                  </div>
+                  <div class="card-body-d">
+                    <p class="content-d color-text-a">
+                      Sed porttitor lectus nibh, Cras ultricies ligula sed magna
+                      dictum porta two.
+                    </p>
+                    <div class="info-agents color-a">
+                      <p><strong>Phone: </strong> +54 356 945234</p>
+                      <p><strong>Email: </strong> agents@example.com</p>
+                    </div>
+                  </div>
+                  <div class="card-footer-d">
+                    <div class="socials-footer d-flex justify-content-center">
+                      <ul class="list-inline">
+                        <li class="list-inline-item">
+                          <a href="#" class="link-one">
+                            <i class="bi bi-facebook" aria-hidden="true"></i>
+                          </a>
+                        </li>
+                        <li class="list-inline-item">
+                          <a href="#" class="link-one">
+                            <i class="bi bi-twitter" aria-hidden="true"></i>
+                          </a>
+                        </li>
+                        <li class="list-inline-item">
+                          <a href="#" class="link-one">
+                            <i class="bi bi-instagram" aria-hidden="true"></i>
+                          </a>
+                        </li>
+                        <li class="list-inline-item">
+                          <a href="#" class="link-one">
+                            <i class="bi bi-linkedin" aria-hidden="true"></i>
+                          </a>
+                        </li>
+                        <li class="list-inline-item">
+                          <a href="#" class="link-one">
+                            <i class="bi bi-dribbble" aria-hidden="true"></i>
+                          </a>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="card-box-d">
+                <div class="card-img-d">
+                  <img
+                    src="assets/img/agent-5.jpg"
+                    alt=""
+                    class="img-d img-fluid" />
+                </div>
+                <div class="card-overlay card-overlay-hover">
+                  <div class="card-header-d">
+                    <div class="card-title-d align-self-center">
+                      <h3 class="title-d">
+                        <a href="agent-single.html" class="link-two"
+                          >Emma Toledo <br />
+                          Cascada</a
+                        >
+                      </h3>
+                    </div>
+                  </div>
+                  <div class="card-body-d">
+                    <p class="content-d color-text-a">
+                      Sed porttitor lectus nibh, Cras ultricies ligula sed magna
+                      dictum porta two.
+                    </p>
+                    <div class="info-agents color-a">
+                      <p><strong>Phone: </strong> +54 356 945234</p>
+                      <p><strong>Email: </strong> agents@example.com</p>
+                    </div>
+                  </div>
+                  <div class="card-footer-d">
+                    <div class="socials-footer d-flex justify-content-center">
+                      <ul class="list-inline">
+                        <li class="list-inline-item">
+                          <a href="#" class="link-one">
+                            <i class="bi bi-facebook" aria-hidden="true"></i>
+                          </a>
+                        </li>
+                        <li class="list-inline-item">
+                          <a href="#" class="link-one">
+                            <i class="bi bi-twitter" aria-hidden="true"></i>
+                          </a>
+                        </li>
+                        <li class="list-inline-item">
+                          <a href="#" class="link-one">
+                            <i class="bi bi-instagram" aria-hidden="true"></i>
+                          </a>
+                        </li>
+                        <li class="list-inline-item">
+                          <a href="#" class="link-one">
+                            <i class="bi bi-linkedin" aria-hidden="true"></i>
+                          </a>
+                        </li>
+                        <li class="list-inline-item">
+                          <a href="#" class="link-one">
+                            <i class="bi bi-dribbble" aria-hidden="true"></i>
+                          </a>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      End About Section-->
+    </main>
+    <!-- End #main -->
+
+    <!-- ======= Footer ======= -->
+    <!-- <section class="section-footer">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-12 col-md-4">
+            <div class="widget-a">
+              <div class="w-header-a">
+                <h3 class="w-title-a text-brand">Grow More</h3>
+              </div>
+              <div class="w-body-a">
+                <p class="w-text-a color-text-a">
+                  Enim minim veniam quis nostrud exercitation ullamco laboris
+                  nisi ut aliquip exea commodo consequat duis sed aute irure.
+                </p>
+              </div>
+              <div class="w-footer-a">
+                <ul class="list-unstyled">
+                  <li class="color-a">
+                    <span class="color-text-a">Email .</span>
+                    contact@example.com
+                  </li>
+                  <li class="color-a">
+                    <span class="color-text-a">Phone .</span> +92 331 6363123
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-12 col-md-4 section-md-t3">
+            <div class="widget-a">
+              <div class="w-header-a">
+                <h3 class="w-title-a text-brand">The Company</h3>
+              </div>
+              <div class="w-body-a">
+                <div class="w-body-a">
+                  <ul class="list-unstyled">
+                    <li class="item-list-a">
+                      <i class="bi bi-chevron-right"></i>
+                      <a href="#">Site Map</a>
+                    </li>
+                    <li class="item-list-a">
+                      <i class="bi bi-chevron-right"></i> <a href="#">Legal</a>
+                    </li>
+                    <li class="item-list-a">
+                      <i class="bi bi-chevron-right"></i>
+                      <a href="#">Agent Admin</a>
+                    </li>
+                    <li class="item-list-a">
+                      <i class="bi bi-chevron-right"></i>
+                      <a href="#">Careers</a>
+                    </li>
+                    <li class="item-list-a">
+                      <i class="bi bi-chevron-right"></i>
+                      <a href="#">Affiliate</a>
+                    </li>
+                    <li class="item-list-a">
+                      <i class="bi bi-chevron-right"></i>
+                      <a href="#">Privacy Policy</a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-12 col-md-4 section-md-t3">
+            <div class="widget-a">
+              <div class="w-header-a">
+                <h3 class="w-title-a text-brand">International sites</h3>
+              </div>
+              <div class="w-body-a">
+                <ul class="list-unstyled">
+                  <li class="item-list-a">
+                    <i class="bi bi-chevron-right"></i>
+                    <a href="#">Venezuela</a>
+                  </li>
+                  <li class="item-list-a">
+                    <i class="bi bi-chevron-right"></i> <a href="#">China</a>
+                  </li>
+                  <li class="item-list-a">
+                    <i class="bi bi-chevron-right"></i>
+                    <a href="#">Hong Kong</a>
+                  </li>
+                  <li class="item-list-a">
+                    <i class="bi bi-chevron-right"></i>
+                    <a href="#">Argentina</a>
+                  </li>
+                  <li class="item-list-a">
+                    <i class="bi bi-chevron-right"></i>
+                    <a href="#">Singapore</a>
+                  </li>
+                  <li class="item-list-a">
+                    <i class="bi bi-chevron-right"></i>
+                    <a href="#">Philippines</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section> -->
+    <footer>
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12">
+            <nav class="nav-footer">
+              <ul class="list-inline">
+                <li class="list-inline-item">
+                  <a href="index.html">Home</a>
+                </li>
+                <li class="list-inline-item">
+                  <a href="about.html">About</a>
+                </li>
+                <li class="list-inline-item">
+                  <a href="blog-grid.html">Blog</a>
+                </li>
+                <li class="list-inline-item">
+                  <a href="contact.html">Contact</a>
+                </li>
+              </ul>
+            </nav>
+            <div class="socials-a">
+              <ul class="list-inline">
+                <li class="list-inline-item">
+                  <a href="https://www.facebook.com/GrowMore.com.pk/">
+                    <i class="bi bi-facebook" aria-hidden="true"></i>
+                  </a>
+                </li>
+                <li class="list-inline-item">
+                  <a href="#">
+                    <i class="bi bi-twitter" aria-hidden="true"></i>
+                  </a>
+                </li>
+                <li class="list-inline-item">
+                  <a href="https://www.instagram.com/GrowMore.com.pk/">
+                    <i class="bi bi-instagram" aria-hidden="true"></i>
+                  </a>
+                </li>
+                <li class="list-inline-item">
+                  <a href="#">
+                    <i class="bi bi-linkedin" aria-hidden="true"></i>
+                  </a>
+                </li>
+                <li class="list-inline-item">
+                  <a href="#">
+                    <i class="bi bi-youtube" aria-hidden="true"></i>
+                  </a>
+                </li>
+                <li class="list-inline-item">
+                  <a href="#">
+                    <i class="bi bi-tiktok" aria-hidden="true"></i>
+                  </a>
+                </li>
+              </ul>
+            </div>
+            <div class="copyright-footer">
+              <p class="copyright color-text-a">
+                &copy; Copyright
+                <span class="color-a">Grow More</span> All Rights Reserved.
+              </p>
+            </div>
+            <div class="credits">
+              Designed & Developed by
+              <a href="https://beacontechh.com/">Beacontechh</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!-- End  Footer -->
+
+    <div id="preloader"></div>
+    <a
+      href="#"
+      class="back-to-top d-flex align-items-center justify-content-center"
+      ><i class="bi bi-arrow-up-short"></i
+    ></a>
+
+    <div class="whatsapp-button">
+      <a href="https://wa.me/+923316363123" target="_blank">
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          width="45"
+          height="45"
+          viewBox="0 0 256 258">
+          <defs>
+            <linearGradient
+              id="logosWhatsappIcon0"
+              x1="50%"
+              x2="50%"
+              y1="100%"
+              y2="0%">
+              <stop offset="0%" stop-color="#1FAF38" />
+              <stop offset="100%" stop-color="#60D669" />
+            </linearGradient>
+            <linearGradient
+              id="logosWhatsappIcon1"
+              x1="50%"
+              x2="50%"
+              y1="100%"
+              y2="0%">
+              <stop offset="0%" stop-color="#F9F9F9" />
+              <stop offset="100%" stop-color="#FFF" />
+            </linearGradient>
+          </defs>
+          <path
+            fill="url(#logosWhatsappIcon0)"
+            d="M5.463 127.456c-.006 21.677 5.658 42.843 16.428 61.499L4.433 252.697l65.232-17.104a122.994 122.994 0 0 0 58.8 14.97h.054c67.815 0 123.018-55.183 123.047-123.01c.013-32.867-12.775-63.773-36.009-87.025c-23.23-23.25-54.125-36.061-87.043-36.076c-67.823 0-123.022 55.18-123.05 123.004" />
+          <path
+            fill="url(#logosWhatsappIcon1)"
+            d="M1.07 127.416c-.007 22.457 5.86 44.38 17.014 63.704L0 257.147l67.571-17.717c18.618 10.151 39.58 15.503 60.91 15.511h.055c70.248 0 127.434-57.168 127.464-127.423c.012-34.048-13.236-66.065-37.3-90.15C194.633 13.286 162.633.014 128.536 0C58.276 0 1.099 57.16 1.071 127.416Zm40.24 60.376l-2.523-4.005c-10.606-16.864-16.204-36.352-16.196-56.363C22.614 69.029 70.138 21.52 128.576 21.52c28.3.012 54.896 11.044 74.9 31.06c20.003 20.018 31.01 46.628 31.003 74.93c-.026 58.395-47.551 105.91-105.943 105.91h-.042c-19.013-.01-37.66-5.116-53.922-14.765l-3.87-2.295l-40.098 10.513l10.706-39.082Z" />
+          <path
+            fill="#FFF"
+            d="M96.678 74.148c-2.386-5.303-4.897-5.41-7.166-5.503c-1.858-.08-3.982-.074-6.104-.074c-2.124 0-5.575.799-8.492 3.984c-2.92 3.188-11.148 10.892-11.148 26.561c0 15.67 11.413 30.813 13.004 32.94c1.593 2.123 22.033 35.307 54.405 48.073c26.904 10.609 32.379 8.499 38.218 7.967c5.84-.53 18.844-7.702 21.497-15.139c2.655-7.436 2.655-13.81 1.859-15.142c-.796-1.327-2.92-2.124-6.105-3.716c-3.186-1.593-18.844-9.298-21.763-10.361c-2.92-1.062-5.043-1.592-7.167 1.597c-2.124 3.184-8.223 10.356-10.082 12.48c-1.857 2.129-3.716 2.394-6.9.801c-3.187-1.598-13.444-4.957-25.613-15.806c-9.468-8.442-15.86-18.867-17.718-22.056c-1.858-3.184-.199-4.91 1.398-6.497c1.431-1.427 3.186-3.719 4.78-5.578c1.588-1.86 2.118-3.187 3.18-5.311c1.063-2.126.531-3.986-.264-5.579c-.798-1.593-6.987-17.343-9.819-23.64" />
+        </svg>
+      </a>
+    </div>
+
+    <!-- Vendor JS Files -->
+    <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+    <script src="assets/vendor/php-email-form/validate.js"></script>
+
+    <!-- Template Main JS File -->
+    <script src="assets/js/main.js"></script>
+  </body>
+</html>
