@@ -2478,3 +2478,11 @@ footer .credits {
 .download:active {
   transform: translateY(-1px);
 }
+
+.card-p {
+  background-color: black;
+  color: white;
+  /* Add any additional styles for <p> tag */
+  font-size: 16px;
+  line-height: 1.5;
+}
