@@ -733,6 +733,8 @@ progress {
 .img-fluid {
   max-width: 100%;
   height: auto;
+  border-right: 5px solid #b81f00; /* Specify the right border width and color */
+  border-bottom: 5px solid #b81f00;
 }
 
 .img-thumbnail {

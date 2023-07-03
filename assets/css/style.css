@@ -2318,10 +2318,19 @@ footer .credits {
 
 .whatsapp-button {
   position: fixed;
-  bottom: 70px;
+  width: 55px;
+  height: 55px;
+  bottom: 60px;
   right: 10px;
-  z-index: 9999;
+  background-color: #25d366;
+  color: #fff;
+  border-radius: 50px;
+  text-align: center;
+  font-size: 30px;
+  box-shadow: 2px 2px 3px #999;
+  z-index: 100;
 }
+
 .service_section {
   padding-top: 60px;
   padding-bottom: 70px;
@@ -2456,7 +2465,7 @@ footer .credits {
   cursor: pointer;
   outline: none;
   text-align: center;
-  
+  display: block;
 }
 
 .download:hover {
