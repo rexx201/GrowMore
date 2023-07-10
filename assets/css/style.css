@@ -176,6 +176,20 @@ a:hover {
   margin-bottom: auto;
   cursor: pointer;
 }
+@media (max-width: 768px) {
+  /* Adjustments for smaller screens */
+  #logo img {
+    max-width: 100%; /* Reduce the maximum width of the image */
+  }
+}
+
+@media (max-width: 480px) {
+  /* Adjustments for even smaller screens */
+  #logo img {
+    max-width: 100%; /* Further reduce the maximum width of the image */
+    /* You can make additional adjustments as needed */
+  }
+}
 /*==================
 	ABOUT US SECTION
 ====================*/
@@ -1939,8 +1953,7 @@ a:hover {
 .hero-container {
   position: relative;
   width: 100%;
-  height: 0;
-  padding-bottom: 100%; /* Set the aspect ratio (16:9) according to your video */
+  padding-bottom: 50%; /* Set the aspect ratio (16:9) according to your video */
   overflow: hidden;
 }
 
@@ -1966,15 +1979,26 @@ a:hover {
   font-size: 24px;
 }
 
-@media screen and (max-width: 768px) {
+@media (max-width: 768px) {
+  /* Adjustments for smaller screens */
+  .hero-container {
+    padding-bottom: 75%; /* Modify the aspect ratio (4:3) for smaller screens */
+  }
+
   .hero-container .content {
-    font-size: 20px;
+    font-size: 18px; /* Decrease the font size for smaller screens */
   }
 }
 
-@media screen and (max-width: 480px) {
+@media (max-width: 480px) {
+  /* Adjustments for even smaller screens */
+  .hero-container {
+    padding-bottom: 100%; /* Modify the aspect ratio (1:1) for even smaller screens */
+  }
+
   .hero-container .content {
-    font-size: 16px;
+    font-size: 16px; /* Further decrease the font size for even smaller screens */
+    /* You can make additional adjustments as needed */
   }
 }
 
