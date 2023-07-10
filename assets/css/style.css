@@ -1993,7 +1993,8 @@ a:hover {
 @media (max-width: 480px) {
   /* Adjustments for even smaller screens */
   .hero-container {
-    padding-bottom: 100%; /* Modify the aspect ratio (1:1) for even smaller screens */
+    padding-bottom: 50%; /* Modify the aspect ratio (1:1) for even smaller screens */
+    margin-top: 90px;
   }
 
   .hero-container .content {
